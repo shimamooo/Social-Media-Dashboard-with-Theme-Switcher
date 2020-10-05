@@ -1,0 +1,109 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.6;
+  color: #8c98c6;
+  background-color: #20222f;
+}
+
+.container {
+  max-width: 111rem;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 3.6rem 0 5.4rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.h1 {
+  font-size: 2.8rem;
+  color: #fff;
+}
+
+.followers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 2.4rem 3rem;
+  text-align: center;
+}
+
+.followers__facebook {
+  background-color: #252b42;
+  border-top: 4px hsl(208, 92%, 53%) solid;
+  border-radius: 5px;
+}
+
+.followers__twitter {
+  background-color: #252b42;
+  border-top: 4px hsl(203, 89%, 53%) solid;
+  border-radius: 5px;
+}
+
+.followers__instagram {
+  border-radius: 5px;
+  background-image: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+  padding-top: 4px;
+}
+
+.followers__instagram__container {
+  background-color: #252b42;
+}
+
+.followers__youtube {
+  background-color: #252b42;
+  border-top: 4px hsl(348, 97%, 39%) solid;
+  border-radius: 5px;
+}
+
+.followers__profile {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0 1rem 0;
+}
+
+.followers__profile p {
+  font-size: 1.2rem;
+}
+
+.h3 {
+  font-size: 5.6rem;
+  color: #fff;
+  letter-spacing: -2px;
+}
+
+.para--caps {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.2rem;
+  letter-spacing: 5px;
+  margin-top: -1rem;
+}
+
+.followers__change {
+  padding: 2.5rem 0;
+  font-size: 1.2rem;
+  color: #1eb589;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
